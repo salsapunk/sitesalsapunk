@@ -13,50 +13,77 @@ body {
     margin: 50px;
     padding: 20px;
     box-shadow: 10px 5px 5px rgb(132, 136, 138);
+}
+
+.links {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1% 1%;
 }
 
 .cabecalho {
     align-content: center;
 }
 
-/* .titulo {
-    
-} */
-
 main {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container-sobre {
     background-color: #c4b28a;
-    padding: 10px;
+    padding: 20px;
     border-radius: 15px;
-    width: 38vh;
+    width: 300vh;
     height: fit-content;
     box-shadow: 8px 5px 5px rgb(132, 136, 138);
-    position: absolute;
-    /* position: sticky; */
-    top: 10px;
-    left: 60%;
 }
 
 .container-texto {
     display: flex;
     flex-direction: column;
-    width: 70vh;
-    overflow-wrap: break-word;
-    word-break: break-all;
 }
 
-.imagem-sobre {
+.box-sobre__imagem {
     width: 20%;
     height: auto;
-    padding-top: 10px;
+    margin-top: 10px;
+}
+
+h4 {
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+.box-sobre {
+    display: flex;
+    padding: 4px;
+    margin-top: -5px;
+}
+
+.sobre-texto {
+    display: flex;
+    padding: 5px 10px;
+    margin-top: 3px;
+}
+
+.box-musica__posicao {
+    display: flex;
+    word-break: break-word;
 }
 
 .imagem-musica {
     width: 20%;
     height: auto;
+    margin-bottom: 5px;
+}
+
+.texto-musica {
+    display: flex;
+    padding: 5px 10px;
+}
+
+.ouvir {
+    margin-left: 10px;
 }
