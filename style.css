@@ -13,6 +13,8 @@ body {
     margin: 50px;
     padding: 20px;
     box-shadow: 10px 5px 5px rgb(132, 136, 138);
+    display: flex;
+    flex-direction: column;
 }
 
 .cabecalho {
@@ -31,7 +33,7 @@ main {
     background-color: #c4b28a;
     padding: 10px;
     border-radius: 15px;
-    width: 38%;
+    width: 38vh;
     height: fit-content;
     box-shadow: 8px 5px 5px rgb(132, 136, 138);
     position: absolute;
@@ -40,22 +42,13 @@ main {
     left: 60%;
 }
 
-.container-musica {
-    position: absolute;
-    
-}
-
-/* .texto-musica {
-    padding: 5px;
-    border: 0 solid;
-    display: table;
-    max-width: 100%;
-    position: absolute;
-    top: 60px;
-    left: 246px;
+.container-texto {
+    display: flex;
+    flex-direction: column;
+    width: 70vh;
+    overflow-wrap: break-word;
     word-break: break-all;
-} */
-
+}
 
 .imagem-sobre {
     width: 20%;
